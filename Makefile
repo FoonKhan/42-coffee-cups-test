@@ -5,3 +5,5 @@ install:
 	./manage.py syncdb --noinput
 	./manage.py collectstatic
 	./manage.py runserver
+clean:
+	rm db.sqlite3
