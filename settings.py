@@ -10,6 +10,7 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+
 BASE_DIR = os.path.dirname(__file__)
 
 
@@ -20,7 +21,6 @@ BASE_DIR = os.path.dirname(__file__)
 SECRET_KEY = '395!@_+mtq$xgbupu%3g=0uvlv&frl^nc7)0_08b9of-$078_o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-
 
 
 TEMPLATE_DEBUG = DEBUG = True
@@ -74,7 +74,6 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-print(BASE_DIR)
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
