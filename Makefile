@@ -7,3 +7,6 @@ install:
 	./manage.py runserver
 clean:
 	rm db.sqlite3
+
+migrate:
+	./manage.py schemamigration app --auto
